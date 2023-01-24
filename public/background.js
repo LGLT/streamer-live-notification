@@ -11,7 +11,7 @@ function getStreamers() {
 
 
 function checkStreamerStatus() {
-  const extensionServer = 'https://streamers-live-notif-server.herokuapp.com/twitch-app-auth';
+  const extensionServer = 'https://streamer-live-notification-server.onrender.com/twitch-app-auth';
   fetch(extensionServer) 
     .then(extensionServerResponse => extensionServerResponse.json())
     .then( authData => {

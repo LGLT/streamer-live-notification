@@ -1,7 +1,7 @@
 {
   "name": "Streamers Live Notification",
   "description": "Find out when your favorite streamers are live!",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "manifest_version": 3,
   "icons": {
     "16": "icon16.png",
@@ -16,7 +16,7 @@
   ],
   "host_permissions": [
     "https://api.twitch.tv/*",
-    "https://streamers-live-notif-server.herokuapp.com/*"
+    "https://streamer-live-notification-server.onrender.com/*"
   ],
   "background": {
     "service_worker": "background.js"
